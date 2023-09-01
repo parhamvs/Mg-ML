@@ -1,47 +1,17 @@
-# Code Overview
+# Materials Science Data Analysis
 
-## Introduction
-This repository contains Python code for a data analysis and machine learning project. The code performs the following tasks:
+This repository contains Python code for materials science data analysis using machine learning techniques to predict material properties, including Ultimate Tensile Strength (UTS), Yield Strength (YS), and Elongation (EL), based on element composition.
 
-- Importing necessary libraries.
-- Loading a dataset from an Excel file.
-- Performing feature engineering to create new features.
-- Training a Random Forest Regressor model.
-- Evaluating the model's performance using metrics.
-- Visualizing feature importance using permutation importance and SHAP values.
+## Overview
 
-## Dependencies
-Ensure you have the following dependencies installed:
-- Python 3.x
-- NumPy
-- pandas
-- Matplotlib
-- Seaborn
-- scikit-learn
-- shap
-
-## Getting Started
-Clone this repository to your local machine to get started.
-
-## Data
-The code assumes a dataset in an Excel file named `Mg-GA-Added.xlsx`.
-
-## Feature Engineering
-The code creates new features based on the sum of various columns in the dataset.
-
-## Data Preparation
-Encode categorical variables if needed and separate the target variable from features.
-
-## Model Training
-A Random Forest Regressor model is trained for prediction.
-
-## Model Evaluation
-The code evaluates the model's performance using R-squared, MAE, and RMSE metrics.
-
-## Feature Importance
-Visualize feature importance using permutation importance.
-
-## SHAP Analysis
-Calculate SHAP values and visualize their summary plot for understanding feature impacts.
-
-Feel free to adapt and extend this code for your specific dataset and tasks.
+- **Data Loading**: Load data from an Excel file.
+- **Data Preprocessing**: Calculate sums for element groups, encode features, and split data.
+- **Machine Learning Models**: Train Random Forest Regressors for UTS, YS, and EL.
+- **Model Evaluation**: Assess model performance and visualize property distributions.
+- **SHAP Analysis**: Explain feature importance using SHAP values.
+- **Permutation Importance**: Evaluate feature importance through permutation.
+- **Alternative Models**: Compare alternative regression models.
+- **Correlation Analysis**: Analyze feature correlations.
+- **Partial Dependence Plots**: Visualize feature effects on UTS.
+- **Repository Structure**: Includes a Jupyter Notebook, data folder, and requirements.
+- **License**: MIT License for educational and research use.
