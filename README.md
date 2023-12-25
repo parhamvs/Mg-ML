@@ -4,7 +4,7 @@ This repository contains Python code for materials science data analysis using m
 
 ## Overview
 
-- **Data Loading**: Load data from an Excel file.
+- **Data Loading**: Load data from the Excel file.
 - **Data Preprocessing**: Calculate sums for element groups, encode features, and split data.
 - **Machine Learning Models**: Train Random Forest Regressors for UTS, YS, and EL.
 - **Model Evaluation**: Assess model performance and visualize property distributions.
